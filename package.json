@@ -1,6 +1,6 @@
 {
   "name": "picgo-plugin-imagebed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于ImageBed的picgo插件",
   "main": "src/index.js",
   "publishConfig": {
