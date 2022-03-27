@@ -19,24 +19,25 @@
 
 1. 前往 [ImageBed](https://github.com/Redns/ImageBed) 根据 `Usage` 搭建 `ImageBed` 环境
 
-![image-20220306224031816](http://imagebed.krins.cloud/api/image/1646606440485.png)
+   ![image-20220327221703914](http://imagebed.krins.cloud/api/image/1648419424242.png)
 
 <br>
 
 2. `GUI` 用户直接搜索 `imagebed` 下载安装
 
-   ![](http://imagebed.krins.cloud/api/image/1646606532485.png)
+   ![image-20220327221729377](http://imagebed.krins.cloud/api/image/1648419449563.png)
 
    <br>
 
 3. 根据实际情况修改设置
 
-   ![image-20220306224313660](http://imagebed.krins.cloud/api/image/1646606591926.png)
+   ![image-20220327221943475](http://imagebed.krins.cloud/api/image/1648419583607.png)
 
-   - `服务器IP`：若服务器为本机则填写 127.0.0.1，若为局域网主机则填写局域网IP，若为云服务器则填写服务器公网IP
-   - `服务器端口号`：若服务器为本机或局域网主机则填写 12121，若为云服务器则填写 80
+   `服务器url` 格式为 `http://{ip}:12121`
+
+   - `局域网使用`： `{ip}` 为服务器的 `局域网IP`，本机使用则 `{ip}` 为 `127.0.0.1` 或 `localhost`
+   - `公网使用`：`{ip}` 为服务器的 `公网IP`，若您的图床服务器包含域名解析，则此处直接填写域名
 
    <br>
 
 4. 大功告成！
-
