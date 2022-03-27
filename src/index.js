@@ -5,19 +5,11 @@ const config = (ctx) => {
     }
     const config = [
         {
-            name: 'ip',
+            name: 'url',
             type: 'input',
-            alias: '服务器IP',
-            default: userConfig.ip || '',
-            message: '服务器IP不能为空',
-            required: true
-        },
-        {
-            name: 'port',
-            type: 'input',
-            alias: '服务器端口号',
-            default: userConfig.port || '',
-            message: '端口号不能为空！',
+            alias: '服务器url',
+            default: userConfig.url || '',
+            message: '服务器url不能为空',
             required: true
         }
     ]
@@ -26,24 +18,23 @@ const config = (ctx) => {
 
 
 const requestConstruct = (userConfig, fileName, img) => {
-    const ip = userConfig.ip
-    const port = userConfig.port
+    const url = userConfig.url
 
     return {
         'method': 'POST',
-        'url': `http://${ip}:${port}/api/image`,
+        'url': `${url}/api/image`,
         'headers': {
         },
         formData: {
-          '': {
-            'value': img,
-            'options': {
-              'filename': fileName,
-              'contentType': null
+            '': {
+                'value': img,
+                'options': {
+                'filename': fileName,
+                'contentType': 'image'
+                }
             }
-          }
         }
-      }
+    }
 }
 
 
@@ -51,7 +42,7 @@ const handle = async (ctx) => {
     // 获取用户配置信息
     const userConfig = ctx.getConfig('picBed.imagebed')
     if(!userConfig){
-        throw new Error('请配置服务器IP和端口号！')
+        throw new Error('请配置服务器url')
     }       
 
     const imgList = ctx.output
@@ -69,7 +60,7 @@ const handle = async (ctx) => {
                     throw new Error(err)
                 }
                 else{
-                    imgList[i]['imgUrl'] = responseObject.url
+                    imgList[i]['imgUrl'] = `${userConfig.url}${responseObject.res[0]}`
                 }
             })
         }
