@@ -19,19 +19,19 @@
 
 1. 前往 [ImageBed](https://github.com/Redns/ImageBed) 根据 `Usage` 搭建 `ImageBed` 环境
 
-   ![image-20220327221703914](http://imagebed.krins.cloud/api/image/1648419424242.png)
+   ![image-20220327222331165](http://jing-image.test.upcdn.net/image-20220327222331165.png)
 
 <br>
 
 2. `GUI` 用户直接搜索 `imagebed` 下载安装
 
-   ![image-20220327221729377](http://imagebed.krins.cloud/api/image/1648419449563.png)
+   ![image-20220327222339489](http://jing-image.test.upcdn.net/image-20220327222339489.png)
 
    <br>
 
 3. 根据实际情况修改设置
 
-   ![image-20220327221943475](http://imagebed.krins.cloud/api/image/1648419583607.png)
+   ![image-20220327222344902](http://jing-image.test.upcdn.net/image-20220327222344902.png)
 
    `服务器url` 格式为 `http://{ip}:12121`
 
