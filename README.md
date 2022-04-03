@@ -41,3 +41,8 @@
    <br>
 
 4. 大功告成！
+
+<br>
+
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Redns/picgo-plugin-imagebed&type=Date)](https://star-history.com/#Redns/picgo-plugin-imagebed&Date)
