@@ -1,5 +1,9 @@
 # picgo-plugin-imagebed
 
+![version: v1.1.1 (shields.io)](https://img.shields.io/badge/version-v1.1.1-green) ![imagebed: version (shields.io)](https://img.shields.io/badge/imagebed version-all-orange)
+
+<br>
+
 ## 简介
 
 [ImageBed](https://github.com/Redns/ImageBed) 为笔者开发的一款图床服务，用于帮助用户搭建属于自己的图床服务器。

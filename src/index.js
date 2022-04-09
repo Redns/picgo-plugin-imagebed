@@ -60,7 +60,7 @@ const handle = async (ctx) => {
                     throw new Error(err)
                 }
                 else{
-                    imgList[i]['imgUrl'] = `${userConfig.url}${responseObject.res[0]}`
+                    imgList[i]['imgUrl'] = `${userConfig.url}/api/image/${responseObject.res[0].split('/').slice(-1)[0]}`
                 }
             })
         }
