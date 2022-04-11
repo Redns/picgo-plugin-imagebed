@@ -1,6 +1,6 @@
 # picgo-plugin-imagebed
 
-![version: v1.1.1 (shields.io)](https://img.shields.io/badge/version-v1.1.1-green) ![imagebed: version (shields.io)](https://img.shields.io/badge/imagebed version-all-orange)
+![version: v1.1.1 (shields.io)](https://img.shields.io/badge/version-v1.1.1-green)
 
 <br>
 
